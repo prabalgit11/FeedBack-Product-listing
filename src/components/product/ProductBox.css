@@ -1,0 +1,137 @@
+.container {
+    background-color: #36416A26;
+    margin-top: 1rem;
+    min-height: 8rem;
+    padding: .5rem;
+    border-radius: .5rem .5rem 0 0;
+    display: flex;
+    width: 93%;
+}
+
+.logo-image {
+    height: 80%;
+    width: 13%;
+    object-fit: contain;
+    margin-right: 3rem;
+}
+
+.main-box {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    height: 3rem;
+    font-size: 1.5rem;
+    font-weight: 550;
+    color: #36416A;
+}
+
+.description {
+    height: 2rem;
+    font-size: 1rem;
+}
+
+.like-box {
+    height: 90%;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.add-likes {
+    height: 70%;
+    background-color: #C7CBD6;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.count-likes {
+    font-size: 1.2rem;
+    padding: .5em;
+}
+
+.comment-box1 {
+    margin-top: 1rem;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.comment-section {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.comment {
+    color: #ABABAB;
+}
+
+.chipItems {
+    padding: .3rem 1rem;
+    background-color: #C0CEFF;
+    border-radius: 1rem;
+}
+
+.comment-showbox {
+    height: 12rem;
+    background-color: #36416A26;
+    width: 93%;
+}
+
+.top {
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment-box2 {
+    height: 2.5rem;
+    width: 85%;
+    border: none;
+    border-radius: 1.25rem 0 0 1.25rem;
+    font-size: 1.2rem;
+    padding: .5rem 1rem;
+    border: 3px solid #C7CBD6;
+}
+
+.bottom {
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    overflow: scroll;
+}
+
+.comments {
+    padding: .5rem 1rem;
+    background-color: #C7CBD6;
+    margin: .25rem .5rem;
+    border-radius: 1rem;
+}
+
+.icon2 {
+    height: 1.3rem;
+    padding: 0.5rem;
+    background-color: white;
+    object-fit: contain;
+    border-radius: 0 1.25rem 1.25rem 0;
+    box-sizing: 0;
+    border: 2px solid #C0CEFF
+}
+
+.icon1 {
+    color: #C7CBD6;
+    font-size: 1.4rem;
+
+}

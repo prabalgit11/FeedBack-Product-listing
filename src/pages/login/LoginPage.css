@@ -1,0 +1,116 @@
+ .login-main {
+     min-height: 100vh;
+     width: 100vw;
+     background-color: #36416A;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .app-feedback {
+     height: 10%;
+     width: 35vw;
+     font-size: 3rem;
+     margin-bottom: 1rem;
+     color: white;
+ }
+
+ .app-info {
+     height: 10%;
+     width: 35vw;
+     margin-bottom: 1rem;
+     color: white;
+     font-size: 1.2rem;
+ }
+
+ .login-filed {
+     width: 40vw;
+     height: 40vh;
+     background-color: white;
+     border-radius: 1rem;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 12%;
+
+ }
+
+ .email-filed {
+     width: 90%;
+     height: 3rem;
+     padding: 1rem;
+     display: flex;
+     align-items: center;
+
+ }
+
+ .login-email {
+     margin-left: 1rem;
+     width: calc(100% - 1rem);
+     border: none;
+     height: 2rem;
+     border-bottom: 1px solid #AAAAAA;
+     color: #737373;
+     font-size: 1rem;
+     padding: 0 .5rem;
+ }
+
+ .password-filed {
+     width: 90%;
+     height: 3rem;
+     padding: 1rem;
+     display: flex;
+     align-items: center;
+
+ }
+
+ .login-password {
+     margin-left: 1rem;
+     width: calc(100% - 1rem);
+     border: none;
+     height: 2rem;
+     border-bottom: 1px solid #AAAAAA;
+     color: #737373;
+     font-size: 1rem;
+     padding: 0 .5rem;
+ }
+
+ .signup {
+     font-size: 1rem;
+     color: #737373;
+     margin-right: 14rem;
+     margin-top: 2rem;
+ }
+
+ .signup-buttn {
+     color: #36416A;
+     text-decoration: underline;
+     margin-left: .4rem;
+ }
+
+ .login {
+
+     margin-left: 26rem;
+     margin-top: 3rem;
+ }
+
+ .login-buttn {
+     background-color: #36416A;
+     width: 5rem;
+     height: 2rem;
+     border-radius: 2rem;
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+
+ .error {
+     height: 1rem;
+     width: calc(90% - 1rem);
+     margin-left: 6rem;
+     color: red;
+ }

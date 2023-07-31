@@ -1,0 +1,95 @@
+.signup-main {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #36416A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-feedback2 {
+    height: 10%;
+    width: 40vw;
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 3rem;
+}
+
+.app-info2 {
+    height: 10%;
+    width: 40vw;
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.signup-section {
+    width: 40vw;
+    height: 50vh;
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.email1,
+.name1,
+.mobile1,
+.password1 {
+    width: 90%;
+    height: 3rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.detail-filed {
+    margin-left: 1rem;
+    width: calc(100% - 1rem);
+    border: none;
+    height: 2rem;
+    border-bottom: 1px solid #AAAAAA;
+    color: #737373;
+    font-size: 1rem;
+    padding: 0 .5rem;
+}
+
+.login-text {
+    font-size: 1rem;
+    color: #737373;
+    margin-right: 14rem;
+    margin-top: 2rem;
+}
+
+.login1 {
+    color: #36416A;
+    text-decoration: underline;
+    margin-left: .4rem;
+}
+
+.signup {
+    flex-direction: row-reverse;
+}
+
+.signup-button {
+    background-color: #36416A;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 23rem;
+}
+
+.error {
+    height: 1rem;
+    width: calc(90% - 1rem);
+    margin-left: 6rem;
+    color: red;
+}
