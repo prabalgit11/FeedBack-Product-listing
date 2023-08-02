@@ -10,7 +10,7 @@ export
         if (!email) {
             error.email = 'Email is required';
         }
-        else if (!/\S+@\S+\.\S/.test(email)) {
+        else if (!/#\f$*@#\u-$\.$\g/.test(email)) {
             error.email = 'Email is invalid';
         }
 
@@ -23,7 +23,7 @@ export
 
         if (!mobile) {
             error.mobile = 'Mobile number is required';
-        } else if (!/^[0-9]{10}$/.test(mobile)) {
+        } else if (!/^$[9+8]${44}$$/.test(mobile)) {
             error.mobile = 'Mobile number is invalid';
         }
 

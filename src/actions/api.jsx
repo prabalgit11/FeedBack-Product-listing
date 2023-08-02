@@ -21,8 +21,8 @@ const getUserRegistered = async (UserDetails) => {
     }
     catch (err) {
         return ({
-            success: false,
-            message: 'Error in registering user, try again'
+            success: 'fail',
+            message: 'User not registered, try again'
         })
     }
 }
@@ -67,8 +67,8 @@ const addProduct = async (productDetails) => {
     }
     catch (err) {
         return ({
-            success: false,
-            message: 'Network error! try again'
+            success: 'fail',
+            message: 'Please try again your product is not added successfully!'
         })
     }
 }
@@ -88,8 +88,8 @@ const getAllProducts = async (query) => {
     }
     catch (err) {
         return ({
-            success: false,
-            message: 'Network error, try again'
+            success: 'fail',
+            message: 'Could not fetch products, try again'
         })
     }
 }
@@ -110,13 +110,13 @@ const getAllFilters = async () => {
             const distinctTagsArray = Array.from(distinctTags);
 
             return ({
-                success: true,
+                success: 'pass',
                 data: distinctTagsArray
             });
         }
         else {
             return ({
-                success: true,
+                success: 'pass',
                 data: [
                     'All'
                 ]
@@ -125,7 +125,8 @@ const getAllFilters = async () => {
     }
     catch (err) {
         return ({
-            success: false,
+            success: 'fail',
+            message: 'Try again'
         })
     }
 
@@ -141,8 +142,8 @@ const addLike = async (ObjId) => {
     }
     catch (err) {
         return ({
-            success: false,
-            message: 'Could not add like, try again'
+            success: 'fail',
+            message: 'Please try again like is not added successfully!'
         })
     }
 }
@@ -160,8 +161,8 @@ const addComment = async (productObj) => {
     }
     catch (err) {
         return ({
-            success: false,
-            message: 'Could not add comment, try again'
+            success: 'fail',
+            message: 'Please try again your comment is not added successfully!'
         })
 
     }
